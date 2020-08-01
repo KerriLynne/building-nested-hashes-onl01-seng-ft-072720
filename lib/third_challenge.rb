@@ -20,21 +20,25 @@ def third_challenge
           :attitude => "worried"
         },
         {
-          :name => "Mercutio"
-          :age => "18"
+          :name => "Mercutio",
+          :age => "18",
           :attitude => "hot-headed"
         }
       ]
-   }, 
+   },
    :capulet => {
       :patriarch => {
-        #your key/value pairs here
+        :name => "Lord Capulet",
+        :age => "50"
         },
       :matriarch => {
-        #your key/value pairs here
+        :name => "Lady Capulet",
+        :age => "51"
         },
       :heroine => {
-        #your key/value pairs here
+        :name = > "Juliet",
+        :age => "15",
+        :status => "alive"
         },
       :heroine_friends => []
    }
